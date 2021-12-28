@@ -16,6 +16,7 @@
             redirect_uri: 'https://guillaumebiton.github.io/Framework7-Svelte-Synology-SSO/index.html',
             callback: authCallback 
         })
+        checked = 'checked'
     }
     const signIn = () => {
         SYNOSSO.login()
@@ -24,7 +25,6 @@
     const authCallback = (res) => {
         status = res.status
         access_token = res.access_token
-        if (access_token) checked = 'checked'
     }
     
 </script>
@@ -38,6 +38,6 @@
 </Block>
 
 <Block>
-<span>logged in</span>
+<span>Synology SSO Library loaded</span>
 <Toggle {checked} color="blue"></Toggle>
 </Block>

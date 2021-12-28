@@ -30,7 +30,7 @@
 </script>
 
 <svelte:head>
-    <script src="https://brt2600-2.synology.me:64515/webman/sso/synoSSO-1.0.0.js" async defer onLoad={initSSO}></script>
+    <script src="https://brt2600-2.synology.me:64515/webman/sso/synoSSO-1.0.0.js" async defer on:load={initSSO}></script>
 </svelte:head>
 
 <Block strong>

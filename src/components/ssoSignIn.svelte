@@ -14,7 +14,7 @@
             oauthserver_url: 'https://brt2600-2.synology.me:64515',
             app_id: 'fed9ec5aec87bd95ca7a5cc153d8e504',
             redirect_uri: 'https://guillaumebiton.github.io/Framework7-Svelte-Synology-SSO/index.html',
-            callback: authCallback 
+            callback: authCallback
         })
         checked = 'checked'
     }

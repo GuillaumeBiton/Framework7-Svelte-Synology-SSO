@@ -1,0 +1,19 @@
+{
+  "cwd": "/workspace/Framework7-Svelte-Synology-SSO",
+  "type": [
+    "web"
+  ],
+  "name": "F7S-Synology-SSO",
+  "framework": "svelte",
+  "template": "single-view",
+  "cssPreProcessor": "less",
+  "bundler": "vite",
+  "theming": {
+    "customColor": false,
+    "color": "#007aff",
+    "darkTheme": false,
+    "iconFonts": true,
+    "fillBars": false
+  },
+  "customBuild": false
+}
